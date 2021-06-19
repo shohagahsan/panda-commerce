@@ -1,43 +1,49 @@
 
 
-/* My Font  */
-@font-face {
-    font-family: 'Open Sans', sans-serif;
-    src: url(/fonts/Open_Sans/OpenSans-Bold.ttf);
-    font-weight: bold;
+.carousel-bg{
+    background-color: #FDE6E8;
 }
-@font-face {
-    font-family: 'Open Sans', sans-serif;
-    src: url(/fonts/Open_Sans/OpenSans-BoldItalic.ttf);
-    font-weight: bold;
+.btn-bg{
+    background-color: #E6397D;
+    color: white;
 }
-@font-face {
-    font-family: 'Open Sans', sans-serif;
-    src: url(/fonts/Open_Sans/OpenSans-ExtraBold.ttf);
-    font-weight: bolder;
+.price-color{
+    color: #E6397D;;
 }
-@font-face {
-    font-family: 'Open Sans', sans-serif;
-    src: url(/fonts/Open_Sans/OpenSans-ExtraBoldItalic.ttf);
-    font-weight: bolder;
+
+/* Carousel Control */
+.carousel-control-next,
+.carousel-control-prev , 
+.carousel-indicators {
+    filter: invert(75%);
 }
-@font-face {
-    font-family: 'Open Sans', sans-serif;
-    src: url(/fonts/Open_Sans/OpenSans-Italic.ttf);
-    font-weight: normal;
+
+/* .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+   .carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+   } */
+
+   /* Categories Section  */
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
 }
-@font-face {
-    font-family: 'Open Sans', sans-serif;
-    src: url(/fonts/Open_Sans/OpenSans-Light.ttf);
-    font-weight: lighter;
+.cat1{
+    background-color: #EFAB26;
 }
-@font-face {
-    font-family: 'Open Sans', sans-serif;
-    src: url(/fonts/Open_Sans/OpenSans-LightItalic.ttf);
-    font-weight: lighter;
+.cat2{
+    background-color: #E92C74;
 }
-@font-face {
-    font-family: 'Open Sans', sans-serif;
-    src: url(/fonts/Open_Sans/OpenSans-Regular.ttf);
-    font-weight: normal;
+.cat3{
+    background-color: #3F6FFD;
+}
+
+.categories h1{
+    color: white;
+}
+.categories img{
+    width: 100px;
 }
